@@ -27,7 +27,9 @@ _Note: All websites are deployed with node.js using command line_
 
 ## 3. **User Login System with Passport.js** (DONE)
 ### Additional Materials Needed:
+* [Boostrap](http://getbootstrap.com/)
 * [Passport.js](http://passportjs.org/)
+* [bCrypt.js](https://www.npmjs.com/package/bcryptjs)
 
 ## 4. **Node Blog System**
 ### Additional Materials Needed:
