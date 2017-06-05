@@ -25,7 +25,7 @@ _Note: All websites are deployed with node.js using command line_
 * [Bootstrap](https://getbootstrap.com/)
 * [NodeMailer](https://nodemailer.com/about/)
 
-## 3. **User Login System with Passport.js**
+## 3. **User Login System with Passport.js** (DONE)
 ### Additional Materials Needed:
 * [Passport.js](http://passportjs.org/)
 
