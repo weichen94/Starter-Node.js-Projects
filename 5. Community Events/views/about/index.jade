@@ -1,0 +1,36 @@
+extends ../../layouts/default
+
+block head
+  title About Us
+
+block neck
+  link(rel='stylesheet', href='/views/about/index.min.css?#{cacheBreaker}')
+
+block body
+  div.row
+    div.col-sm-6
+      div.page-header
+        h1 About Us
+      div.media
+        a.pull-left(href='#')
+          img.media-object(src='../media/logo-symbol-64x64.png', style='width: 64px; height: 64px;', alt='Lu Lechuan')
+        div.media-body
+          h4.media-heading Lu Lechuan
+          p Majoring in Computer Science, Lu Lechuan is the front-end develop for this web app.
+      div.media.text-right
+        a.pull-right(href='#')
+          img.media-object(src='../media/logo-symbol-64x64.png', style='width: 64px; height: 64px;', alt='Xu Weichen')
+        div.media-body
+          h4.media-heading Xu Weichen
+          p Majoring in Applied Mathematics, Xu Weichen is the back-end developer for this web app.
+      div.media
+        a.pull-left(href='#')
+          img.media-object(src='../media/logo-symbol-64x64.png', style='width: 64px; height: 64px;', alt='Lu Yu')
+        div.media-body
+          h4.media-heading Lu Yu
+          p Majoring in Computer Science, Lu Yu is the current IT director of NUS Mathematics Society.
+    div.col-sm-6.special
+      div.page-header
+        h1 NUS Mathematics Society
+      p.lead For A Better Learning Experience
+      i.fa.fa-volume-up.super-awesome
